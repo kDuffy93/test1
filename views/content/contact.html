@@ -1,0 +1,39 @@
+<div id="contactContainer" class="container">
+    <h1>Contact Me</h1>
+
+    <!-- Social media container-->
+
+    <section>
+        <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.Instagram.com"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.LinkedIn.com"><i class="fa-brands fa-linkedin"></i></a>
+    </section>
+
+    <!-- contact Form container-->
+    <section>
+        <form id="contactForm">
+            <fieldset form="contactForm" name="aboutSection" onsubmit="contactSubmit()">
+                <legend>About You</legend>
+                <label for="fname">First name:</label>
+                <input type="text" required id="fname" name="fname">
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname">
+                <label for="email">Email:</label>
+                <input type="email" required id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <legend>Details</legend>
+                <label for="subject">subject:</label>
+                <input type="text" id="subject" name="subject">
+                <label for="content">Tell me a bit more about why you're reaching out</label>
+                <textarea required id="content" name="content" rows="5" cols="75" placeholder="..."></textarea>
+            </fieldset>
+
+            <!-- submit container-->
+            <fieldset>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+</div>
